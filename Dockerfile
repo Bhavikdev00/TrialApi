@@ -1,5 +1,5 @@
 # Use an official Dart runtime as a parent image
-FROM google/dart:2.15.0
+FROM google/dart:3.2.4
 
 # Set the working directory to /app
 WORKDIR /app
