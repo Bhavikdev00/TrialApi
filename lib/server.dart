@@ -8,6 +8,7 @@ void main() {
   shelf_io.serve(handler, 'localhost', 8080).then((server) {
     print('Server is running on port ${server.port}');
   });
-}
+p heroku --version
+
 
 
